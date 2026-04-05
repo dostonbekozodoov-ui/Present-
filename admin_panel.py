@@ -1,7 +1,12 @@
-from flask import Flask, render_template
-app = Flask(__name__)
+import os
 
-@app.route('/admin')
+app.run(
+    host="0.0.0.0",
+        port=int(os.environ.get("PORT", 5000))
+        )
+        
+@app.ro
+ute('/admin')
 def admin_dashboard():
     # Sample data for user management (this should connect to a database)
     users = [
