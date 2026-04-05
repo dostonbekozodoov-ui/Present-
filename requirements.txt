@@ -1,0 +1,7 @@
+aiogram
+python-pptx
+reportlab
+openai
+requests
+python-dotenv
+aiohttp
