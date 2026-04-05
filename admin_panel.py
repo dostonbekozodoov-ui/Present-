@@ -5,8 +5,7 @@ app.run(
         port=int(os.environ.get("PORT", 5000))
         )
         
-@app.ro
-ute('/admin')
+@app.route('/admin')
 def admin_dashboard():
     # Sample data for user management (this should connect to a database)
     users = [
