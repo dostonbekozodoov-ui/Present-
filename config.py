@@ -1,6 +1,6 @@
 # Telegram Bot Configuration
 
-TELEGRAM_BOT_TOKEN = 'YOUR_TELEGRAM_BOT_TOKEN'
+TELEGRAM_BOT_TOKEN = '8658995593:AAEmb46-0i_f4a5GdYrFD7b9Blu-77vG8oo'
 
 # Payment System Configuration
 
